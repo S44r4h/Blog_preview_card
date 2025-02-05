@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 16px; /* 1rem = 16px */
+}
+
 body {
   max-width: 1440px;
   height: 100vh;
@@ -34,7 +38,7 @@ body {
 
 .category {
   display: inline-block;
-  padding: 8px 0;
+  padding: 12px 0;
 }
 
 .category p {
@@ -42,14 +46,14 @@ body {
   display: inline-block;
   padding: 4px 12px;
   border-radius: 4px;
-  font-size: 14px;
+  font-size: 0.8rem;
   line-height: 150%;
   font-weight: 800;
   word-spacing: 0px;
 }
 
 header p {
-  font-size: 14px;
+  font-size: 0.8rem;
   line-height: 150%;
   font-weight: 500;
   word-spacing: 0px;
@@ -57,7 +61,7 @@ header p {
 }
 
 header h1 {
-  font-size: 24px;
+  font-size: 1.5rem;
   line-height: 150%;
   font-weight: 800;
   word-spacing: 0px;
@@ -71,7 +75,7 @@ header h1:hover {
 
 article p {
   color: #6B6B6B;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 150%;
   font-weight: 500;
   word-spacing: 0px;
@@ -86,7 +90,7 @@ article p {
   display: inline;
   padding: 0;
   color: #111111;
-  font-size: 14px;
+  font-size: 0.8rem;
   line-height: 150%;
   font-weight: 800;
   word-spacing: 0px;
@@ -101,4 +105,21 @@ article p {
 .attribution {
   font-weight: 600;
   padding: 1rem;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 14px; /* 1rem = 14px mobile*/
+  }
+  .card {
+    width: 327px;
+    height: 501px;
+  }
+  header img {
+    width: 279px;
+    height: 200px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
 }/*# sourceMappingURL=style.css.map */
