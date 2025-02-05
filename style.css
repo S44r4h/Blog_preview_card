@@ -1,0 +1,11 @@
+:root {
+    --yellow: #F4D04E;
+    --gray-950: #111111;
+    --gray-500: #6B6B6B;
+    --white: #FFFFFF;
+    
+  }
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
